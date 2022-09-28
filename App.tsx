@@ -1,23 +1,19 @@
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
-import colors from './src/theme/colors';
-import font from './src/theme/fonts';
-import Octicons from 'react-native-vector-icons/Octicons';
+import Feed from './src/components/Feed';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      {/* Header */}
+    <View style={styles.app}>
+      <Feed />
 
-      {/* Body */}
 
-      {/* Footer */}
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  app: {
     flex: 1,
   },
 });
